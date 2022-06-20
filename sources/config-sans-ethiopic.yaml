@@ -1,0 +1,8 @@
+buildVariable: true
+familyName: Noto Sans Ethiopic
+googleFonts: true
+includeSubsets:
+- from: Noto Sans
+  name: GF_Latin_Core
+sources:
+- NotoSansEthiopic.glyphs
