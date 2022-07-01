@@ -5,81 +5,25 @@ Fontbakery version: 0.8.9
 <details><summary><b>[1] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
 
-* 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSerifEthiopic/googlefonts/slim-variable-ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf', 'fonts/NotoSerifEthiopic/googlefonts/variable-ttf'] [code: single-directory]
-</div></details><br></div></details><details><summary><b>[9] NotoSerifEthiopic[wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+* 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoSerifEthiopic/googlefonts/ttf', 'fonts/NotoSerifEthiopic/googlefonts/variable-ttf'] [code: single-directory]
+</div></details><br></div></details><details><summary><b>[10] NotoSerifEthiopic-Black.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** The file 'NotoSerifEthiopic[wght].ttf' must be renamed to 'NotoSerifEthiopic[wdth,wght].ttf' according to the Google Fonts naming policy for variable fonts. [code: bad-varfont-filename]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp">com.google.fonts/check/gasp</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font is missing the 'gasp' table. Try exporting the font with autohinting enabled.
-If you are dealing with an unhinted font, it can be fixed by running the fonts through the command 'gftools fix-nonhinting'
-GFTools is available at https://pypi.org/project/gftools/ [code: lacks-gasp]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
-
-
-* 🔥 **FAIL** The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the `gftools fix-nonhinting` script. [code: lacks-smart-dropout]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifEthiopic/googlefonts/slim-variable-ttf/NotoSerifEthiopic[wght].ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Black.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Bold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-ExtraBold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-ExtraLight.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Light.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Medium.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Regular.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-SemiBold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Thin.ttf', 'fonts/NotoSerifEthiopic/googlefonts/variable-ttf/NotoSerifEthiopic[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
-
-
-* 🔥 **FAIL** 'Regular' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 261. [code: invalid-default-instance-subfamily-nameid:261]
-* 🔥 **FAIL** 'Regular' instance has the same coordinates as the default instance; its postScriptNameID should be 6, instead of 270. [code: invalid-default-instance-postscript-nameid:270]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
-
-
-* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
-
-
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C) and 4 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
-</div></details><br></div></details><details><summary><b>[12] NotoSerifEthiopic-Black.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifEthiopic/googlefonts/slim-variable-ttf/NotoSerifEthiopic[wght].ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Black.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Bold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-ExtraBold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-ExtraLight.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Light.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Medium.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Regular.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-SemiBold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Thin.ttf', 'fonts/NotoSerifEthiopic/googlefonts/variable-ttf/NotoSerifEthiopic[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni2D81
-	* uni1331
-	* uni1216
-	* uni1356
-	* uni2D89
-	* uniAB2C
-	* uni134B
-	* uni1255
-	* uni12BE
-	* uni1379 and 317 more.
+	* nineFinethiopic
+	* uni1211
+	* uniAB29
+	* uni1314
+	* uni124D
+	* uni2DAC
+	* uni134D
+	* uni1237
+	* uniAB24
+	* uni2DC9 and 317 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -185,35 +129,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<454.0,335.0>--<295.0,336.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] NotoSerifEthiopic-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] NotoSerifEthiopic-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifEthiopic/googlefonts/slim-variable-ttf/NotoSerifEthiopic[wght].ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Black.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Bold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-ExtraBold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-ExtraLight.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Light.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Medium.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Regular.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-SemiBold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Thin.ttf', 'fonts/NotoSerifEthiopic/googlefonts/variable-ttf/NotoSerifEthiopic[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni2D81
-	* uni1331
-	* uni1216
-	* uni2D89
-	* uniAB2C
-	* uni134B
-	* uni1255
-	* uni12BE
-	* uni1379
-	* uni12C3 and 300 more.
+	* nineFinethiopic
+	* uni1211
+	* uni1314
+	* uni124D
+	* uni2DAC
+	* uni134D
+	* uni1237
+	* uniAB24
+	* uni2DC9
+	* uni2DAD and 300 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -260,35 +193,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
 	* uni12D2 (U+12D2): L<<278.0,297.0>--<278.0,297.0>>/B<<278.0,297.0>-<189.0,298.0>-<134.0,325.0>> = 0.6437457141753082 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoSerifEthiopic-ExtraBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifEthiopic-ExtraBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifEthiopic/googlefonts/slim-variable-ttf/NotoSerifEthiopic[wght].ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Black.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Bold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-ExtraBold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-ExtraLight.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Light.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Medium.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Regular.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-SemiBold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Thin.ttf', 'fonts/NotoSerifEthiopic/googlefonts/variable-ttf/NotoSerifEthiopic[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni2D81
-	* uni1331
-	* uni1216
-	* uni2D89
-	* uniAB2C
-	* uni134B
-	* uni1255
-	* uni12BE
-	* uni1379
-	* uni12C3 and 307 more.
+	* nineFinethiopic
+	* uni1211
+	* uniAB29
+	* uni1314
+	* uni124D
+	* uni2DAC
+	* uni134D
+	* uni1237
+	* uniAB24
+	* uni2DC9 and 307 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -368,35 +290,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<444.0,335.0>--<285.0,336.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSerifEthiopic-ExtraLight.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifEthiopic-ExtraLight.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifEthiopic/googlefonts/slim-variable-ttf/NotoSerifEthiopic[wght].ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Black.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Bold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-ExtraBold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-ExtraLight.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Light.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Medium.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Regular.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-SemiBold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Thin.ttf', 'fonts/NotoSerifEthiopic/googlefonts/variable-ttf/NotoSerifEthiopic[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1377
-	* uni1304
-	* uni125C
 	* eightFinethiopic
-	* eightMedethiopic
-	* uni1307
-	* seventyIniethiopic
 	* uni2D87
-	* uni125D
-	* uni138B and 17 more.
+	* uni124B
+	* uni125C
+	* uni1389
+	* uni1377
+	* tenIniethiopic
+	* eightyFinethiopic
+	* twentyIniethiopic
+	* eightIniethiopic and 17 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -474,35 +385,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* uni124C (U+124C): L<<67.0,30.0>--<293.0,29.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifEthiopic-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSerifEthiopic-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifEthiopic/googlefonts/slim-variable-ttf/NotoSerifEthiopic[wght].ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Black.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Bold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-ExtraBold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-ExtraLight.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Light.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Medium.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Regular.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-SemiBold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Thin.ttf', 'fonts/NotoSerifEthiopic/googlefonts/variable-ttf/NotoSerifEthiopic[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni2D81
-	* uni1379
-	* uni1377
 	* uni124D
-	* uni1304
-	* uni125C
-	* fortyIniethiopic
-	* thirtyIniethiopic
-	* uniAB0A
-	* uniAB09 and 77 more.
+	* uniAB0E
+	* uni125A
+	* uni1287
+	* eightFinethiopic
+	* uni2D87
+	* uni127F
+	* uni138A
+	* uni124B
+	* uni12F4 and 77 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -562,35 +462,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* uni124C (U+124C): L<<66.0,39.0>--<285.0,38.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifEthiopic-Medium.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSerifEthiopic-Medium.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifEthiopic/googlefonts/slim-variable-ttf/NotoSerifEthiopic[wght].ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Black.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Bold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-ExtraBold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-ExtraLight.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Light.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Medium.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Regular.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-SemiBold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Thin.ttf', 'fonts/NotoSerifEthiopic/googlefonts/variable-ttf/NotoSerifEthiopic[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni2D81
-	* uni2D89
-	* uniAB2C
-	* uni134B
-	* uni1255
-	* uni1379
-	* uni12C3
-	* uni1377
-	* uni127B
-	* uni2DA4 and 216 more.
+	* uni1211
+	* uni1314
+	* uni124D
+	* uni2DAC
+	* uni1237
+	* uniAB24
+	* uni2DC9
+	* uni2DAD
+	* seventyMedethiopic
+	* uni1300 and 216 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -650,35 +539,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* uni1246 (U+1246): B<<564.0,156.0>-<507.0,116.0>-<376.0,114.0>>/L<<376.0,114.0>--<376.0,114.0>> = 0.8746767711211453 
 
 	* And uni1378 (U+1378): L<<203.0,147.0>--<203.0,147.0>>/B<<203.0,147.0>-<121.0,148.0>-<77.5,182.0>> = 0.6986943829831717 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[10] NotoSerifEthiopic-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoSerifEthiopic-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifEthiopic/googlefonts/slim-variable-ttf/NotoSerifEthiopic[wght].ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Black.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Bold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-ExtraBold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-ExtraLight.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Light.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Medium.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Regular.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-SemiBold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Thin.ttf', 'fonts/NotoSerifEthiopic/googlefonts/variable-ttf/NotoSerifEthiopic[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni2D81
-	* uni2D89
-	* uniAB2C
-	* uni134B
-	* uni1255
-	* uni1379
-	* uni12C3
-	* uni1377
-	* uni2DA4
-	* uni12D2 and 189 more.
+	* uni1211
+	* uni1314
+	* uni124D
+	* uni2DAC
+	* uni1237
+	* uni2DC9
+	* uni2DAD
+	* seventyMedethiopic
+	* uni1300
+	* uniAB0E and 189 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -763,35 +641,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* uni12A7 (U+12A7): B<<466.0,288.5>-<443.0,317.0>-<394.0,329.0>>/L<<394.0,329.0>--<394.0,329.0>> = 13.760785111791225 
 
 	* And uni1378 (U+1378): L<<198.0,145.0>--<198.0,145.0>>/B<<198.0,145.0>-<121.0,147.0>-<80.0,180.0>> = 1.4878675288276741 [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[12] NotoSerifEthiopic-SemiBold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoSerifEthiopic-SemiBold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifEthiopic/googlefonts/slim-variable-ttf/NotoSerifEthiopic[wght].ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Black.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Bold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-ExtraBold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-ExtraLight.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Light.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Medium.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Regular.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-SemiBold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Thin.ttf', 'fonts/NotoSerifEthiopic/googlefonts/variable-ttf/NotoSerifEthiopic[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni2D81
-	* uni1331
-	* uni1216
-	* uni2D89
-	* uniAB2C
-	* uni134B
-	* uni1255
-	* uni12BE
-	* uni1379
-	* uni12C3 and 257 more.
+	* uni1211
+	* uni1314
+	* uni124D
+	* uni2DAC
+	* uni134D
+	* uni1237
+	* uniAB24
+	* uni2DC9
+	* uni2DAD
+	* seventyMedethiopic and 257 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -891,35 +758,24 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
 	* sterling (U+00A3): L<<419.0,336.0>--<262.0,337.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] NotoSerifEthiopic-Thin.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] NotoSerifEthiopic-Thin.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifEthiopic/googlefonts/slim-variable-ttf/NotoSerifEthiopic[wght].ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Black.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Bold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-ExtraBold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-ExtraLight.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Light.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Medium.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Regular.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-SemiBold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Thin.ttf', 'fonts/NotoSerifEthiopic/googlefonts/variable-ttf/NotoSerifEthiopic[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1377
 	* eightFinethiopic
-	* eightMedethiopic
+	* uni1377
+	* eightyFinethiopic
+	* twentyIniethiopic
+	* eightIniethiopic
+	* tenFinethiopic
+	* sixtyIniethiopic
 	* uni1370
 	* twentyFinethiopic
-	* twentyIniethiopic
-	* sixtyFinethiopic
-	* sixtyMedethiopic
-	* eightyIniethiopic
-	* tenFinethiopic and 3 more.
+	* eightyIniethiopic and 3 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -1015,21 +871,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* exclamdown (U+00A1): L<<149.0,370.0>--<152.0,-177.0>> 
 
 	* And uni124C (U+124C): L<<67.0,25.0>--<300.0,23.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[6] NotoSerifEthiopic[wdth,wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[4] NotoSerifEthiopic[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x00AF (MACRON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
-
-
-* 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software." Must be changed to "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL" [code: wrong]
-</div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/NotoSerifEthiopic/googlefonts/slim-variable-ttf/NotoSerifEthiopic[wght].ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Black.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Bold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-ExtraBold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-ExtraLight.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Light.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Medium.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Regular.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-SemiBold.ttf', 'fonts/NotoSerifEthiopic/googlefonts/ttf/NotoSerifEthiopic-Thin.ttf', 'fonts/NotoSerifEthiopic/googlefonts/variable-ttf/NotoSerifEthiopic[wdth,wght].ttf']. [code: missing-os2-fsselection-bit7]
+* 💔 **ERROR** Failed with IndexError: list index out of range
 </div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
 
 
@@ -1050,8 +895,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 39 | 73 | 1242 | 77 | 1004 | 0 |
-| 0% | 2% | 3% | 51% | 3% | 41% | 0% |
+| 10 | 2 | 71 | 1120 | 62 | 950 | 0 |
+| 0% | 0% | 3% | 51% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
