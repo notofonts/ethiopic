@@ -14,16 +14,16 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* nineFinethiopic
-	* uni1211
-	* uniAB29
-	* uni1314
-	* uni124D
-	* uni2DAC
-	* uni134D
-	* uni1237
-	* uniAB24
-	* uni2DC9 and 317 more.
+	* uni127B
+	* uni123B
+	* sevenMedethiopic
+	* uni2D93
+	* uni1377
+	* uniAB12
+	* uni1217
+	* uni1315
+	* uni1253
+	* uni12FA and 317 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -137,16 +137,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* nineFinethiopic
-	* uni1211
-	* uni1314
-	* uni124D
-	* uni2DAC
-	* uni134D
-	* uni1237
-	* uniAB24
-	* uni2DC9
-	* uni2DAD and 300 more.
+	* uni127B
+	* uni123B
+	* sevenMedethiopic
+	* uni2D93
+	* uni1377
+	* uni1217
+	* uni1315
+	* uni1253
+	* uni12FA
+	* uni2DA9 and 300 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -201,16 +201,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* nineFinethiopic
-	* uni1211
-	* uniAB29
-	* uni1314
-	* uni124D
-	* uni2DAC
-	* uni134D
-	* uni1237
-	* uniAB24
-	* uni2DC9 and 307 more.
+	* uni127B
+	* uni123B
+	* sevenMedethiopic
+	* uni2D93
+	* uni1377
+	* uniAB12
+	* uni1217
+	* uni1315
+	* uni1253
+	* uni12FA and 307 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -298,15 +298,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* eightFinethiopic
-	* uni2D87
-	* uni124B
-	* uni125C
-	* uni1389
 	* uni1377
-	* tenIniethiopic
-	* eightyFinethiopic
+	* eightyIniethiopic
+	* uni1388
+	* seventyIniethiopic
+	* uni1307
+	* uni1370
 	* twentyIniethiopic
+	* tenIniethiopic
+	* uni2D87
 	* eightIniethiopic and 17 more.
 
 Use -F or --full-lists to disable shortening of long lists.
@@ -393,16 +393,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni124D
-	* uniAB0E
-	* uni125A
+	* uni1377
+	* uni12FA
+	* uni138E
+	* eightyIniethiopic
+	* fortyIniethiopic
 	* uni1287
-	* eightFinethiopic
-	* uni2D87
-	* uni127F
-	* uni138A
-	* uni124B
-	* uni12F4 and 77 more.
+	* uni1388
+	* uniAB0E
+	* uni2DD2
+	* uni2D96 and 77 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -470,16 +470,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1211
-	* uni1314
-	* uni124D
-	* uni2DAC
-	* uni1237
-	* uniAB24
-	* uni2DC9
-	* uni2DAD
-	* seventyMedethiopic
-	* uni1300 and 216 more.
+	* uni127B
+	* uni2D93
+	* uni1377
+	* uni1217
+	* uni1253
+	* uni12FA
+	* uni2DA9
+	* uni138E
+	* uniAB01
+	* uni138D and 216 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -547,16 +547,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1211
-	* uni1314
-	* uni124D
-	* uni2DAC
-	* uni1237
-	* uni2DC9
-	* uni2DAD
-	* seventyMedethiopic
-	* uni1300
-	* uniAB0E and 189 more.
+	* uni2D93
+	* uni1377
+	* uni1253
+	* uni12FA
+	* uni2DA9
+	* uni138E
+	* uniAB01
+	* uni138D
+	* eightyIniethiopic
+	* uni12D2 and 189 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -649,16 +649,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni1211
-	* uni1314
-	* uni124D
-	* uni2DAC
-	* uni134D
-	* uni1237
-	* uniAB24
-	* uni2DC9
-	* uni2DAD
-	* seventyMedethiopic and 257 more.
+	* uni127B
+	* uni2D93
+	* uni1377
+	* uni1217
+	* uni1253
+	* uni12FA
+	* uni2DA9
+	* uni138E
+	* uniAB01
+	* uni138D and 257 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
@@ -766,16 +766,16 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* eightFinethiopic
 	* uni1377
-	* eightyFinethiopic
+	* eightyIniethiopic
+	* uni1370
 	* twentyIniethiopic
 	* eightIniethiopic
-	* tenFinethiopic
-	* sixtyIniethiopic
-	* uni1370
-	* twentyFinethiopic
-	* eightyIniethiopic and 3 more.
+	* eightFinethiopic
+	* sixtyMedethiopic
+	* eightyFinethiopic
+	* sixtyFinethiopic
+	* sixtyIniethiopic and 3 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Combined length of family and style must not exceed 27 characters. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/family_and_style_max_length">com.google.fonts/check/name/family_and_style_max_length</a>)</summary><div>
