@@ -117,8 +117,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* sterling (U+00A3): L<<454.0,335.0>--<295.0,336.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[5] NotoSerifEthiopic-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
+	* hhyeethiopic (U+1E7E5): L<<360.0,71.0>--<359.0,384.0>> 
+
+	* And sterling (U+00A3): L<<454.0,335.0>--<295.0,336.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[6] NotoSerifEthiopic-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
@@ -171,6 +173,12 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
 	* uni12D2 (U+12D2): L<<278.0,297.0>--<278.0,297.0>>/B<<278.0,297.0>-<189.0,298.0>-<134.0,325.0>> = 0.6437457141753082 [code: found-jaggy-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
+
+	* hhyeethiopic (U+1E7E5): L<<358.0,72.0>--<357.0,389.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[7] NotoSerifEthiopic-ExtraBold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -256,7 +264,9 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* sterling (U+00A3): L<<444.0,335.0>--<285.0,336.0>> [code: found-semi-vertical]
+	* hhyeethiopic (U+1E7E5): L<<359.0,71.0>--<358.0,387.0>> 
+
+	* And sterling (U+00A3): L<<444.0,335.0>--<285.0,336.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[7] NotoSerifEthiopic-ExtraLight.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -312,6 +322,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1242 (U+1242): L<<358.0,30.0>--<358.0,30.0>> -> L<<358.0,30.0>--<445.0,30.0>>
 
+	* uni124A.gur (U+1E7F0): L<<358.0,30.0>--<358.0,30.0>> -> L<<358.0,30.0>--<445.0,30.0>>
+
 	* uni1252 (U+1252): L<<369.0,30.0>--<369.0,30.0>> -> L<<369.0,30.0>--<450.0,30.0>>
 
 	* uni134A (U+134A): L<<225.0,0.0>--<223.0,0.0>> -> L<<223.0,0.0>--<208.0,0.0>>
@@ -320,15 +332,15 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni135A (U+135A): L<<187.0,0.0>--<183.0,0.0>> -> L<<183.0,0.0>--<171.0,0.0>>
 
-	* uni2DC3 (U+2DC3): L<<309.0,252.0>--<309.0,253.0>> -> L<<309.0,253.0>--<309.0,520.0>>
+	* uni1389.gur (U+1E7FB): L<<225.0,0.0>--<223.0,0.0>> -> L<<223.0,0.0>--<208.0,0.0>>
 
-	* uniAB01 (U+AB01): L<<141.0,300.0>--<141.0,298.0>> -> L<<141.0,298.0>--<141.0,94.0>>
+	* uni138A.gur (U+1E7FC): L<<223.0,0.0>--<223.0,0.0>> -> L<<223.0,0.0>--<223.0,0.0>>
 
-	* uniAB02 (U+AB02): L<<141.0,300.0>--<141.0,298.0>> -> L<<141.0,298.0>--<141.0,94.0>>
+	* uni2DC3 (U+2DC3): L<<309.0,252.0>--<309.0,253.0>> -> L<<309.0,253.0>--<309.0,520.0>> 
 
-	* uniAB02 (U+AB02): L<<538.0,30.0>--<538.0,30.0>> -> L<<538.0,30.0>--<627.0,30.0>> 
+	* And 4 more.
 
-	* And uniAB05 (U+AB05): L<<141.0,299.0>--<141.0,298.0>> -> L<<141.0,298.0>--<141.0,94.0>> [code: found-colinear-vectors]
+Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -462,9 +474,11 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1373 (U+1373): L<<301.0,572.0>--<312.0,572.0>> -> L<<312.0,572.0>--<312.0,572.0>>
 
-	* uni1373 (U+1373): L<<312.0,572.0>--<312.0,572.0>> -> L<<312.0,572.0>--<576.0,572.0>> 
+	* uni1373 (U+1373): L<<312.0,572.0>--<312.0,572.0>> -> L<<312.0,572.0>--<576.0,572.0>>
 
-	* And uni1373 (U+1373): L<<38.0,572.0>--<301.0,572.0>> -> L<<301.0,572.0>--<301.0,572.0>> [code: found-colinear-vectors]
+	* uni1373 (U+1373): L<<38.0,572.0>--<301.0,572.0>> -> L<<301.0,572.0>--<301.0,572.0>> 
+
+	* And uni1382.gur (U+1E7EE): L<<832.0,386.0>--<831.0,383.0>> -> L<<831.0,383.0>--<769.0,231.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -537,13 +551,15 @@ The following glyphs do not have the recommended number of contours:
 
 	* g (U+0067): X=161.0,Y=-0.5 (should be at baseline 0?) 
 
-	* And 48 more.
+	* And 62 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* hweeethiopic (U+1E7EA): L<<851.0,490.0>--<852.0,490.0>> -> L<<852.0,490.0>--<852.0,490.0>>
 
 	* uni129B (U+129B): L<<356.0,561.0>--<359.0,561.0>> -> L<<359.0,561.0>--<493.0,561.0>>
 
@@ -635,7 +651,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* Aring (U+00C5): X=477.0,Y=715.5 (should be at cap-height 714?) 
 
-	* And 54 more.
+	* And 68 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
@@ -735,13 +751,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni135A (U+135A): L<<179.0,0.0>--<175.0,0.0>> -> L<<175.0,0.0>--<169.0,0.0>>
 
-	* uni2D8A (U+2D8A): L<<156.0,202.0>--<213.0,341.0>> -> L<<213.0,341.0>--<215.0,346.0>>
+	* uni1389.gur (U+1E7FB): L<<219.0,0.0>--<215.0,0.0>> -> L<<215.0,0.0>--<209.0,0.0>>
 
-	* uni2DD4 (U+2DD4): L<<614.0,207.0>--<614.0,205.0>> -> L<<614.0,205.0>--<614.0,106.0>>
+	* uni138A.gur (U+1E7FC): L<<219.0,0.0>--<215.0,0.0>> -> L<<215.0,0.0>--<209.0,0.0>>
 
-	* uniAB01 (U+AB01): L<<128.0,302.0>--<128.0,298.0>> -> L<<128.0,298.0>--<128.0,87.0>> 
+	* uni2D8A (U+2D8A): L<<156.0,202.0>--<213.0,341.0>> -> L<<213.0,341.0>--<215.0,346.0>> 
 
-	* And 3 more.
+	* And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -772,7 +788,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 	* exclamdown (U+00A1): L<<149.0,370.0>--<152.0,-177.0>> 
 
 	* And uni124C (U+124C): L<<67.0,25.0>--<300.0,23.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[4] NotoSerifEthiopic[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[5] NotoSerifEthiopic[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
@@ -784,6 +800,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
+
+
+* ⚠ **WARN** Font file is 1.0Mb; ideally it should be less than 1.0Mb [code: large-font]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -793,7 +813,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 3 | 1 | 61 | 1088 | 62 | 920 | 0 |
+| 3 | 1 | 63 | 1088 | 62 | 918 | 0 |
 | 0% | 0% | 3% | 51% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:

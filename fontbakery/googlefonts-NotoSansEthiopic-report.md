@@ -80,7 +80,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* gwa.eth (U+1310): L<<562.0,268.0>--<562.0,263.0>> -> L<<562.0,263.0>--<562.0,0.0>> 
 
-	* And 11 more.
+	* And 14 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -108,7 +108,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* Wcircumflex (U+0174): B<<714.0,235.0>-<721.0,196.0>-<724.0,167.0>>/B<<724.0,167.0>-<727.0,192.0>-<734.0,229.0>> = 12.748914526401432 
 
-	* And 9 more.
+	* And 10 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
 </div></details><br></div></details><details><summary><b>[7] NotoSansEthiopic-Bold.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
@@ -206,7 +206,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* gge.eth (U+131D): L<<222.0,526.0>--<224.0,526.0>> -> L<<224.0,526.0>--<224.0,526.0>> 
 
-	* And 14 more.
+	* And 16 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -311,7 +311,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* ge.eth (U+130D): L<<214.0,714.0>--<214.0,714.0>> -> L<<214.0,714.0>--<338.0,714.0>> 
 
-	* And 25 more.
+	* And 27 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -428,6 +428,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 
 	* fi.eth (U+134A): L<<218.0,0.0>--<219.0,0.0>>/B<<219.0,0.0>-<144.0,2.0>-<104.0,45.5>> = 1.5275254422129318
 
+	* fwigurage.eth (U+1E7FB): L<<218.0,0.0>--<219.0,0.0>>/B<<219.0,0.0>-<144.0,2.0>-<104.0,45.5>> = 1.5275254422129318
+
 	* ra.eth (U+1228): L<<271.0,0.0>--<271.0,0.0>>/B<<271.0,0.0>-<171.0,1.0>-<117.5,48.0>> = 0.5729386976832647
 
 	* xo.eth (U+1286): L<<555.0,714.0>--<554.0,714.0>>/B<<554.0,714.0>-<623.0,712.0>-<657.5,678.5>> = 1.6602823689826889 
@@ -497,23 +499,27 @@ The following glyphs do not have the recommended number of contours:
 
 	* gge.eth (U+131D): L<<193.0,522.0>--<193.0,522.0>> -> L<<193.0,522.0>--<251.0,522.0>>
 
+	* gwegurage.eth (U+1E7FA): L<<182.0,714.0>--<182.0,714.0>> -> L<<182.0,714.0>--<310.0,714.0>>
+
+	* gwegurage.eth (U+1E7FA): L<<649.0,408.0>--<649.0,406.0>> -> L<<649.0,406.0>--<649.0,0.0>>
+
 	* kwa.eth (U+12B0): L<<532.0,361.0>--<532.0,357.0>> -> L<<532.0,357.0>--<532.0,0.0>>
 
-	* nyo.eth (U+129E): L<<387.0,547.0>--<472.0,547.0>> -> L<<472.0,547.0>--<472.0,547.0>>
+	* mweegurage.eth (U+1E7EE): L<<714.0,170.0>--<703.0,143.0>> -> L<<703.0,143.0>--<664.0,46.0>>
 
-	* nyoa.eth (U+2D89): L<<387.0,547.0>--<472.0,547.0>> -> L<<472.0,547.0>--<472.0,547.0>>
+	* nyo.eth (U+129E): L<<387.0,547.0>--<472.0,547.0>> -> L<<472.0,547.0>--<472.0,547.0>> 
 
-	* ro.eth (U+122E): L<<379.0,714.0>--<421.0,714.0>> -> L<<421.0,714.0>--<421.0,714.0>>
+	* And 4 more.
 
-	* roa.eth (U+2D82): L<<529.0,714.0>--<571.0,714.0>> -> L<<571.0,714.0>--<571.0,714.0>> 
-
-	* And xe.eth (U+1285): L<<222.0,651.0>--<222.0,656.0>> -> L<<222.0,656.0>--<222.0,714.0>> [code: found-colinear-vectors]
+Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
 	* fi.eth (U+134A): L<<216.0,0.0>--<216.0,0.0>>/B<<216.0,0.0>-<138.0,2.0>-<98.5,47.0>> = 1.4688007143857
+
+	* fwigurage.eth (U+1E7FB): L<<216.0,0.0>--<216.0,0.0>>/B<<216.0,0.0>-<138.0,2.0>-<98.5,47.0>> = 1.4688007143857
 
 	* no.eth (U+1296): L<<419.0,714.0>--<418.0,714.0>>/B<<418.0,714.0>-<493.0,713.0>-<530.0,678.5>> = 0.7638984609298817
 
@@ -533,17 +539,25 @@ The following glyphs do not have the recommended number of contours:
 
 	* hhu.eth (U+1211): L<<406.0,714.0>--<405.0,421.0>>
 
+	* hhwagurage.eth (U+1E7E8): L<<406.0,714.0>--<405.0,421.0>>
+
+	* hhyu.eth (U+1E7E1): L<<406.0,675.0>--<405.0,421.0>>
+
+	* hwe.eth (U+1E7EB): L<<406.0,714.0>--<405.0,421.0>>
+
+	* hwee.eth (U+1E7EA): L<<406.0,714.0>--<405.0,466.0>>
+
+	* hwi.eth (U+1E7E9): L<<406.0,714.0>--<405.0,422.0>>
+
 	* ko.eth (U+12AE): L<<117.0,0.0>--<116.0,357.0>>
 
 	* kyo.eth (U+2DCE): L<<117.0,0.0>--<116.0,357.0>>
 
-	* xya.eth (U+2DD0): L<<292.0,0.0>--<291.0,172.0>>
+	* xya.eth (U+2DD0): L<<292.0,0.0>--<291.0,172.0>> 
 
-	* xyee.eth (U+2DD4): L<<292.0,0.0>--<291.0,172.0>>
+	* And 3 more.
 
-	* xyi.eth (U+2DD2): L<<292.0,0.0>--<291.0,172.0>> 
-
-	* And xyu.eth (U+2DD1): L<<292.0,0.0>--<291.0,172.0>> [code: found-semi-vertical]
+Use -F or --full-lists to disable shortening of long lists. [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[7] NotoSansEthiopic-Medium.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
@@ -618,7 +632,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* dee.eth (U+12F4): L<<408.0,221.0>--<572.0,221.0>> -> L<<572.0,221.0>--<572.0,221.0>> 
 
-	* And 25 more.
+	* And 27 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -627,6 +641,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
 	* fi.eth (U+134A): L<<228.0,0.0>--<228.0,0.0>>/B<<228.0,0.0>-<135.0,2.0>-<91.0,51.5>> = 1.2319774026396337
+
+	* fwigurage.eth (U+1E7FB): L<<228.0,0.0>--<228.0,0.0>>/B<<228.0,0.0>-<135.0,2.0>-<91.0,51.5>> = 1.2319774026396337
 
 	* ra.eth (U+1228): L<<274.0,0.0>--<274.0,0.0>>/B<<274.0,0.0>-<160.0,2.0>-<103.5,53.5>> = 1.005086005254142 
 
@@ -698,7 +714,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* dee.eth (U+12F4): L<<410.0,214.0>--<560.0,214.0>> -> L<<560.0,214.0>--<560.0,214.0>> 
 
-	* And 29 more.
+	* And 32 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -707,6 +723,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-colinea
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
 	* fi.eth (U+134A): L<<212.0,0.0>--<212.0,0.0>>/B<<212.0,0.0>-<127.0,3.0>-<88.5,50.5>> = 2.0213649403560074
+
+	* fwigurage.eth (U+1E7FB): L<<212.0,0.0>--<212.0,0.0>>/B<<212.0,0.0>-<127.0,3.0>-<88.5,50.5>> = 2.0213649403560074
 
 	* ra.eth (U+1228): L<<273.0,0.0>--<273.0,0.0>>/B<<273.0,0.0>-<160.0,2.0>-<105.0,53.0>> = 1.0139787227852883 
 
@@ -805,15 +823,15 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 	* fo.eth (U+134E): L<<379.0,714.0>--<455.0,714.0>> -> L<<455.0,714.0>--<455.0,714.0>>
 
+	* fwigurage.eth (U+1E7FB): L<<245.0,0.0>--<245.0,0.0>> -> L<<245.0,0.0>--<245.0,0.0>>
+
 	* ge.eth (U+130D): L<<198.0,714.0>--<202.0,714.0>> -> L<<202.0,714.0>--<202.0,714.0>>
 
 	* ge.eth (U+130D): L<<202.0,714.0>--<202.0,714.0>> -> L<<202.0,714.0>--<340.0,714.0>>
 
-	* gge.eth (U+131D): L<<215.0,524.0>--<216.0,524.0>> -> L<<216.0,524.0>--<216.0,524.0>>
+	* gge.eth (U+131D): L<<215.0,524.0>--<216.0,524.0>> -> L<<216.0,524.0>--<216.0,524.0>> 
 
-	* gge.eth (U+131D): L<<216.0,524.0>--<216.0,524.0>> -> L<<216.0,524.0>--<237.0,524.0>> 
-
-	* And 17 more.
+	* And 22 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
@@ -906,6 +924,8 @@ The following glyphs do not have the recommended number of contours:
 
 	* jee.eth (U+1304): L<<521.0,197.0>--<605.0,197.0>> -> L<<605.0,197.0>--<605.0,197.0>>
 
+	* mweegurage.eth (U+1E7EE): L<<717.0,175.0>--<687.0,100.0>> -> L<<687.0,100.0>--<656.0,25.0>>
+
 	* nyo.eth (U+129E): L<<403.0,544.0>--<466.0,544.0>> -> L<<466.0,544.0>--<466.0,544.0>>
 
 	* nyo.eth (U+129E): L<<466.0,544.0>--<466.0,544.0>> -> L<<466.0,544.0>--<472.0,544.0>>
@@ -923,6 +943,8 @@ The following glyphs do not have the recommended number of contours:
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
 	* fi.eth (U+134A): L<<220.0,0.0>--<220.0,0.0>>/B<<220.0,0.0>-<149.0,1.0>-<108.0,43.5>> = 0.8069294551021693
+
+	* fwigurage.eth (U+1E7FB): L<<220.0,0.0>--<220.0,0.0>>/B<<220.0,0.0>-<149.0,1.0>-<108.0,43.5>> = 0.8069294551021693
 
 	* no.eth (U+1296): L<<420.0,714.0>--<419.0,714.0>>/B<<419.0,714.0>-<485.0,712.0>-<518.0,679.0>> = 1.735704588928346
 
@@ -945,7 +967,7 @@ The following glyphs do not have the recommended number of contours:
 	* exclamdown (U+00A1): L<<122.0,354.0>--<124.0,-186.0>> 
 
 	* And exclamdown (U+00A1): L<<96.0,-186.0>--<98.0,354.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[5] NotoSansEthiopic[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] NotoSansEthiopic[wdth,wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
@@ -957,6 +979,10 @@ The following glyphs do not have the recommended number of contours:
 
 
 * 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure files are not too large. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/file_size">com.google.fonts/check/file_size</a>)</summary><div>
+
+
+* ⚠ **WARN** Font file is 1.1Mb; ideally it should be less than 1.0Mb [code: large-font]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -973,7 +999,7 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 3 | 1 | 67 | 1088 | 62 | 914 | 0 |
+| 3 | 1 | 68 | 1088 | 62 | 913 | 0 |
 | 0% | 0% | 3% | 51% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
